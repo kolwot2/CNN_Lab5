@@ -17,8 +17,8 @@
 ## 1. С использованием примера, техники обучения Transfer Learning, оптимальной политики изменения темпа обучения, аугментации данных с оптимальными настройками обучить нейронную сеть EfficientNet-B0 (предварительно обученную на базе изображений imagenet) для решения задачи классификации изображений Food-101 
 * **Графики обучения с использованием Transfer Learning**:  
    * График точности epoch_categorical_accuracy:
-   <img src="./graphs/flip_categorical_accuracy.png">
-   <img src="./graphs/flip_categorical_accuracy_legend.png">
+   <img src="./graphs/trans_all_accuracy.svg">
+   <img src="./graphs/trans_all_loss.svg">
  
    * График функции потерь epoch_loss:
    <img src="./graphs/flip_loss.png">
